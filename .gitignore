@@ -1,0 +1,27 @@
+# 민감한 설정 파일
+www/data/dbconfig.php
+www/data/firebase/service-account.json
+info.md
+
+# GnuBoard 데이터
+www/data/session/
+www/data/tmp/
+www/data/cache/
+www/data/log/
+www/data/file/
+www/data/editor/
+
+# SQL 덤프
+*.sql
+
+# Flutter / Android 빌드
+thenaen_app/android/.gradle/
+thenaen_app/build/
+thenaen_app/.dart_tool/
+
+# 대용량 동영상 (GitHub 100MB 제한)
+www/video/
+
+# OS
+.DS_Store
+Thumbs.db
