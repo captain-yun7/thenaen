@@ -4269,7 +4269,7 @@ function PushSend($tokens, $deviceType, $title, $body,  $link) {
                 "url":"'.$link.'",
                 "title":"'.$title.'",
                 "body":"'.$body.'",
-                "emoticon":"http://breathing.webadsky.net/img/back_image.png",
+                "emoticon":"https://jhw2bum.mycafe24.com/img/back_image.png",
              }
           }',
           CURLOPT_HTTPHEADER => array(
@@ -4296,7 +4296,7 @@ function PushSend($tokens, $deviceType, $title, $body,  $link) {
                "url":"'.$link.'",
                "title":"'.$title.'",
                "body":"'.$body.'",
-               "emoticon":"http://breathing.webadsky.net/img/back_image.png",
+               "emoticon":"https://jhw2bum.mycafe24.com/img/back_image.png",
             }
          }',
           CURLOPT_HTTPHEADER => array(

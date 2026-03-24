@@ -60,6 +60,15 @@
             else if(strpos($REQUEST_URI, "comm_sub.php") !== false){
                 $srhStringBokyaalStr = "javascript:location.href = 'comm.php'";
             }
+            else if(strpos($REQUEST_URI, "myh_2.php") !== false){
+                $srhStringBokyaalStr = "javascript:location.href = 'index.php'";
+            }
+            else if(strpos($REQUEST_URI, "myh_1_1.php") !== false){
+                $srhStringBokyaalStr = "javascript:location.href = 'index.php'";
+            }
+            else if(strpos($REQUEST_URI, "myh_3.php") !== false){
+                $srhStringBokyaalStr = "javascript:location.href = 'index.php'";
+            }
             else{
                 $srhStringBokyaalStr = "javascript:history.go(-1);";
             }

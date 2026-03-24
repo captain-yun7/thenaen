@@ -177,7 +177,7 @@ $(document).ready(function(){
 
     //내 게시글 삭제후 리스트보면 자유게시판으로
     //1:1문의 후 자유게시판으로
-    var pageLink = 'http://breathing.webadsky.net'
+    var pageLink = 'https://jhw2bum.mycafe24.com'
 
     var referrer = document.referrer;
     if(referrer == pageLink + '/org/comm_sub_my.php' || referrer == pageLink + '/org/comm_inq_ok.php'){

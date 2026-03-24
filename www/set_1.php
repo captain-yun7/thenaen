@@ -45,6 +45,8 @@ include 'header.php';
                 return
             }
             else{
+                $("#nickSend").val(user_nick);
+                $("#set_1_edit_f_id").submit();
             }
 
 

@@ -2,7 +2,7 @@
 
 include_once('./_common.php');
 
-$self_url = "http://breathing.webadsky.net/bbs/login.php";
+$self_url = "https://jhw2bum.mycafe24.com/bbs/login.php";
 
 $header = array(
     'is_header' => false,

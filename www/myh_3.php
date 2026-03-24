@@ -223,8 +223,9 @@ $datej = date("j");
                     $show_temp=$temp-$j_temp_change_num; // 보여줄 날짜 변수
 
 
+                    $show_temp_display = $show_temp;
                     if($datej == $show_temp){
-                        $show_temp = "<b><font size='4'>".$show_temp."</font></b>";
+                        $show_temp_display = "<b><font size='4'>".$show_temp."</font></b>";
                     }
 
 
@@ -238,7 +239,7 @@ $datej = date("j");
                     }
                     else{
                         ?>
-                        <td  class="td" onClick = "popupOpenVarSave('<?=$nowData_Year?>','<?=$nowData_Month_ch?>','<?=$show_temp?>')"><?=$show_temp?></td>
+                        <td  class="td" onClick = "popupOpenVarSave('<?=$nowData_Year?>','<?=$nowData_Month_ch?>','<?=$show_temp?>')"><?=$show_temp_display?></td>
                         <?php
                     }
 

@@ -25,7 +25,7 @@ define('FCM_SERVICE_ACCOUNT_PATH', G5_DATA_PATH.'/firebase/service-account.json'
 define('FCM_PROJECT_ID', ''); // TODO: Firebase 프로젝트 ID 입력
 
 // 사이트 도메인 (푸시 이미지 등에 사용)
-define('SITE_DOMAIN', G5_DOMAIN ?: 'https://breathing.webadsky.net');
+define('SITE_DOMAIN', G5_DOMAIN ?: 'https://jhw2bum.mycafe24.com');
 
 // ============================================================
 // FCM v1 API 푸시 발송 함수
