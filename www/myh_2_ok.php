@@ -15,11 +15,7 @@ if($self_ck != ""){ // 저장
 
     $outs = sql_fetch_array(sql_query("select * FROM g5_member where mb_id = '$ss_mb_id'"));
 
-    $mb_name = $outs['mb_name'];
-
-    //$mb_name = iconv("UTF-8", "EUC-KR", $mb_name);
-
-    //$mb_name = iconv("EUC-KR", "UTF-8", $mb_name);
+    $mb_name = addslashes($outs['mb_name']);
 
     $REMOTE_ADDRS = $_SERVER["REMOTE_ADDR"];
 
